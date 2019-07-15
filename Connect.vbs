@@ -13,10 +13,12 @@ WshShell.SendKeys "{TAB}"
 WshShell.SendKeys "{ENTER}"
 
 WScript.Sleep 1000
-
-WshShell.SendKeys "^%{TAB}"
+  
+WshShell.SendKeys "^%{TAB}" 
 WScript.Sleep 500
+  
 WshShell.SendKeys "{ENTER}"
 WScript.Sleep 500
+
 WshShell.SendKeys "password"
 WshShell.SendKeys "{ENTER}"
